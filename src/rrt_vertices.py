@@ -15,7 +15,7 @@ class RRT(GridMap):
     def check_if_valid(self, a, b):
         
         in_free_space = True
-               x_list = np.linspace(a[0], b[0], num=100)
+        x_list = np.linspace(a[0], b[0], num=100)
         y_list = np.linspace(a[1], b[1], num=100)
 
         for index in range(len(x_list)):
